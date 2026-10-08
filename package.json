@@ -1,0 +1,21 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nilan1979/Playwright-Automation.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nilan1979/Playwright-Automation/issues"
+  },
+  "homepage": "https://github.com/Nilan1979/Playwright-Automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.4"
+  }
+}
