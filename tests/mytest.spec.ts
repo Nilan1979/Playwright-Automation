@@ -17,7 +17,7 @@ test("Title",async({page})=>{
 test("Verify Title",async({page})=>{
 
     await page.goto("https://demowebshop.tricentis.com/")
-    await expect(page.getByRole("heading", { name: "Demo Web Shop" })).toBeVisible()
+    await expect(page).toHaveTitle("Demo Web Shop")
 })
 
 
