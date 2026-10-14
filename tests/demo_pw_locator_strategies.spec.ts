@@ -39,6 +39,13 @@ test("Playwright locators", async ({page})=>{
     await expect(totalRunsBox).toHaveText('4,821Total Runs')
     await expect(totalRunsBox).toContainText('4,821')
 
+
+    const proPlanButton =page.getByTestId('add-to-cart-pro')
+    await expect(proPlanButton).toBeVisible()
+    await proPlanButton.click()
+
+    
+
     
 
 
